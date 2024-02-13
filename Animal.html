@@ -1,0 +1,24 @@
+
+<!Doctype html>
+<html>
+ <head>
+    <title>Game</title>
+    <!--<link rel="stylesheet" href="Animal.css"/>-->
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ </head>
+ <body>
+        <form>
+            <label for="animals" id="animals">Choose an animal(Lion, Cat, Dog, Monkey,Hen,Tiger,Bee,Rat,Snake):</label>
+            <input type="text" id="animals">
+            <button type="button" id="process" onclick="changeAnimal(), changeSound()">OK</button>
+        </form>
+        <img src="Lion.jpg" height="200px" width="200px" id="img">
+        <audio autoplay controls id="audio">
+        <source src="lion.mp3" type="audio/mp3"/>
+        </audio>
+
+        
+        <script src="animal.js"></script>
+  </body>
+</html>
